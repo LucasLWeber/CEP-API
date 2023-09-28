@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Consulta de CEP</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <form id="cepForm" action="app.js" method="GET">
+      <label for="cep">Insira seu cep</label>
+      <input id="cep" name="cep" type="text" placeholder="00000-000">
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="auto-completed-info">
+      <label for="bairro">Bairro</label>
+      <input id="bairro" name="bairro" type="text">
+
+      <label for="localidade">Localidade</label>
+      <input id="localidade" name="localidade" type="text">
+
+      <label for="logradouro">Logradouro</label>
+      <input id="logradouro" name="logradouro" type="text">
+
+      <label for="uf">UF</label>
+      <input id="uf" name="uf" type="text">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #eee;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 500px;
+  background-color: #ccc;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.auto-completed-info{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: end;
+  margin-top: 50px;
+}
